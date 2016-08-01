@@ -8,5 +8,8 @@ bin/
 # Eclipse Java Development Tools
 .classpath
 
+# Java
+*.class
+
 # Java Package Files
 *.jar
