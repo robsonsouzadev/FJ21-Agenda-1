@@ -12,8 +12,15 @@
         <jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao" />
 
         <table>
-            <c:forEach var="contato" items="${dao.lista}">
-                <tr>
+            <tr>
+                <td>Nome</td>
+                <td>Email</td>
+                <td>Endereço</td>
+                <td>Data de nascimento</td>
+            </tr>
+
+            <c:forEach var="contato" items="${dao.lista}" varStatus="id">
+                <tr bgcolor="#${id.count % 2 == 0 ? 'aaee88' : 'ffffff'}">
                     <td>${contato.nome}</td>
                     <td>${contato.email}</td>
                     <td>${contato.endereco}</td>
