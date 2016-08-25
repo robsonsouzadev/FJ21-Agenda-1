@@ -17,7 +17,7 @@
 	   <h1>Adiciona Contatos</h1>
         <hr />
 
-        <form action="mvc?logica=AdicionaContatoLogic" method="post">
+        <form action="mvc?logica=AdicionaOuAlteraLogic" method="post">
             Nome: <input type="text" name="nome" /><br />
             Email: <input type="text" name="email" /><br />
             Endereço: <input type="text" name="endereco" /><br />
