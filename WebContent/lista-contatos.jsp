@@ -9,6 +9,8 @@
         <meta http-equiv="Content-Type" content="text/html; UTF-8">
     </head>
     <body>
+        <c:import url="cabecalho.jsp" />
+
         <jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao" />
 
         <table>
@@ -37,5 +39,7 @@
                 </tr>
             </c:forEach>
         </table>
+
+        <c:import url="rodape.jsp" />
     </body>
 </html>
