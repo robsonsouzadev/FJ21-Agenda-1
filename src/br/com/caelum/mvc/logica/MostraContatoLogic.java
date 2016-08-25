@@ -16,6 +16,6 @@ public class MostraContatoLogic implements Logica{
 
 		request.setAttribute("contato", contato);
 
-		return "mostra-contato.jsp";
+		return "WEB-INF/jsp/mostra-contato.jsp";
 	}
 }

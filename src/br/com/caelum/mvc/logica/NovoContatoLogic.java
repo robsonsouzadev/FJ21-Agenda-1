@@ -7,6 +7,6 @@ public class NovoContatoLogic implements Logica{
 
 	@Override
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		return "adiciona-contato.jsp";
+		return "WEB-INF/jsp/adiciona-contato.jsp";
 	}
 }
