@@ -12,6 +12,8 @@
     <body>
         <c:import url="cabecalho.jsp" />
 
+        <a href="mvc?logica=NovoContatoLogic">Adicionar contato</a>
+
         <table>
             <tr>
                 <td>Nome</td>
